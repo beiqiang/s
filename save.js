@@ -7,7 +7,7 @@
       token: apiToken2
 	})
 	let uid=localStorage.getItem('uid')
-console.log('uid:',uid)
+// console.log('uid:',uid)
 	if(uid===null||uid===undefined||uid===''){
 	   uid=guid()
 	   localStorage.setItem('uid',uid)
